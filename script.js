@@ -3,7 +3,7 @@ let hrBox = document.getElementById("hr-box");
 let minBox = document.getElementById("min-box");
 let secBox = document.getElementById("sec-box");
 
-let endDate = new Date(2023,9,16,12,00);
+let endDate = new Date(2023,9,16,20,00);
 
 let endTime = endDate.getTime();
 
@@ -26,7 +26,7 @@ function countdown(){
 if(endTime < todayTime){
   clearInterval(i);
   document.querySelector(".countdown").
-  innerHTML = '<h1>Congratulation!!</h1>';
+  innerHTML = '<h1>Welcome back!!</h1>';
 }
 
 else{
